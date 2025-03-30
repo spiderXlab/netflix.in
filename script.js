@@ -9,6 +9,8 @@ if (imageIndex > 15) {
 
 }
 
-// Initial call changeImage();
-Change image every 5 seconds setInterval(changeImage, 3000);
+// Initial call
+changeImage();
+//Change image every 5 seconds
+setInterval(changeImage, 3000);
 
