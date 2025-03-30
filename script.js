@@ -1,4 +1,6 @@
-const tvDiv = document.querySelector('.tv'); let imageIndex = 3;
+document.addEventListener("DOMContentLoaded", () => {
+    
+     const tvDiv = document.querySelector('.tv'); let imageIndex = 3;
 
 function changeImage() { tvDiv.style.backgroundImage = url('${imageIndex}.jpg'); tvDiv.style.backgroundSize = 'cover'; tvDiv.style.backgroundPosition = 'center';
 
